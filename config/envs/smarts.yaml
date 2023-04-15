@@ -1,0 +1,18 @@
+env: smarts
+
+env_args:
+  agent_num: 4
+  scenarios: "YOUR ROOT/smarts/scenarios/sumo/loop"  # your smarts root
+  episode_limit: 300
+  seed: null
+  headless: True  # If False, enables Envision display
+  visdom: False
+
+
+test_greedy: True
+test_nepisode: 32
+test_interval: 10000
+log_interval: 10000
+runner_log_interval: 10000
+learner_log_interval: 10000
+t_max: 2050000
