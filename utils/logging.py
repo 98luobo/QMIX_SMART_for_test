@@ -61,6 +61,6 @@ def get_logger():
     formatter = logging.Formatter('[%(levelname)s %(asctime)s] %(name)s %(message)s', '%H:%M:%S')
     ch.setFormatter(formatter)
     logger.addHandler(ch)
-    logger.setLevel('WARNING')
+    logger.setLevel('DEBUG')
 
     return logger
