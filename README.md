@@ -2,7 +2,7 @@
 Some unexpected bugs will show up
 ## Run SMARTS env
 ```
-python3 src/main.py --config=qmix --env-config=smarts
+python main.py --config=qmix --env-config=smarts
 ```
 ## Some Bugs
 ```
